@@ -14,7 +14,18 @@
     <link rel="stylesheet" type="text/css" href="./assets/css/vno.css">
     <link rel="stylesheet" type="text/css" href="./assets/css/iconfont.css">
     <link rel="apple-touch-icon" href="./apple-touch-icon.png">
+    <link rel="stylesheet" type="text/css" href="./assets/css/icofont.min.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/icofont.css">
+    <script src="js/a.js"></script>
     <link rel="icon" href="./favicon.ico">
+    <style>
+        p.hiddenWords { 
+            position: absolute;
+            left : -10px;
+            top : -10px;
+            border: 5px;
+        }
+    </style>
 </head>
 
 <body>
@@ -76,10 +87,15 @@
                                     </li>                                   
                                     <li class="navigation__item">
                                         <a href="https://rsshub.pengqi.xyz:300" class="blog-button" target="_blank">rsshub</a>
-                                    </li>                                                                
+                                    </li>    
+                                    
+                                                                                                                              
                                 </ul>
                             </nav>
+                                                      
                         </div>
+        
+                        
                         <div class="iUp">
                             <nav class="cover-navigation navigation--social">
                                 <ul class="navigation">
@@ -101,9 +117,33 @@
                                             <span class="label">email</span>
                                         </a>
                                     </li>
+                                    
+                                                                      
                                 </ul>
                             </nav>
                         </div>
+                        
+                        
+                        <div class="iUp">
+						<nav class="cover-navigation navigation--social">
+                                      
+                                    <li class="navigation__item">
+                                        <a href="mailto:me@pengqi.xyz" title="last">
+                                            
+                                            <i class="icofont-hand-drawn-up" onclick="last()"></i>
+                                            
+                                        </a>
+                                    </li>     
+                                    <li class="navigation__item">
+                                        <a href="mailto:me@pengqi.xyz" title="next">
+                                            
+                                            <i class="icofont-hand-drawn-down" onclick="next()"></i>
+                                            
+                                        </a>
+                                    </li>                                                                    
+                                </ul>
+                            </nav>
+                        </div>                        
                     </div>
                 </div>
             </div>
@@ -119,6 +159,7 @@
                 <a href="https://hitokoto.cn/" target="_blank"> Hitokoto </a>
             </p>
         </div>
+        <p class="hiddenWords">0</p>
     </header>
     <script type="text/javascript" src="./assets/js/jquery.min.js"></script>
     <script type="text/javascript" src="./assets/js/fetch.min.js"></script>

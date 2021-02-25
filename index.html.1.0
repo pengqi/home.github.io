@@ -78,15 +78,10 @@
                                     </li>                                   
                                     <li class="navigation__item">
                                         <a href="https://rsshub.pengqi.xyz:300" class="blog-button" target="_blank">rsshub</a>
-                                    </li>    
-                                    
-                                                                                                                              
+                                    </li>                                                                
                                 </ul>
                             </nav>
-                                                      
                         </div>
-        
-                        
                         <div class="iUp">
                             <nav class="cover-navigation navigation--social">
                                 <ul class="navigation">
@@ -109,15 +104,6 @@
                                         </a>
                                     </li>
                                     
-                                                                      
-                                </ul>
-                            </nav>
-                        </div>
-                        
-                        
-                        <div class="iUp">
-														<nav class="cover-navigation navigation--social">
-                                      
                                     <li class="navigation__item">
                                         <a href="mailto:me@pengqi.xyz" title="next">
                                             <i class="icofont-hand-drawn-down"></i>
@@ -132,7 +118,7 @@
                                     </li>                                                                        
                                 </ul>
                             </nav>
-                        </div>                        
+                        </div>
                     </div>
                 </div>
             </div>

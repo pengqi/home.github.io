@@ -22,8 +22,8 @@ function get_total_ls() {
     ]
 
     let ls2 = [
-        ['https://anki.pengqi.xyz:300', 'anki'],
-        ['https://pan.pengqi.xyz:300/#!/downloading', 'btDownload']
+        ['https://pan.pengqi.xyz:300/#!/downloading', 'AriaNg']
+        ['https://photo.pengqi.xyz:300', 'Photoprism']
     ]
 
     let total_ls = [ls1, ls2]

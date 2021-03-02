@@ -45,9 +45,9 @@ function next() {
     page_num = get_page_num() + 1
     change_page_num(page_num)
 
-    if (page_num >= total_ls.length) {
-        alert('到底了')
-    }
+    // if (page_num >= total_ls.length) {
+    //     alert('到底了')
+    // }
 
     ls = total_ls[page_num]
     //alert(ls[0][1])
@@ -89,9 +89,9 @@ function last() {
 
     page_num = get_page_num() - 1
     change_page_num(page_num)
-    if (page_num == -1) {
-        alert('已经是首页了')
-    }
+    // if (page_num == -1) {
+    //     alert('已经是首页了')
+    // }
 
     ls = total_ls[page_num]
     //alert(ls[0][1])

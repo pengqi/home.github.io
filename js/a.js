@@ -16,14 +16,14 @@ function get_total_ls() {
     let ls1 = [
         ["https://pengqi.xyz", "blog"],
         ["https://pengqi.xyz/about/", "about"],
-        ["https://cloud.pengqi.xyz:300", "cloud"],
+        ['https://photo.pengqi.xyz:300', 'photo'],
         ["https://share.pengqi.xyz:300", "share"],
         ["https://rsshub.pengqi.xyz:300", "rsshub"]
     ]
 
     let ls2 = [
         ['https://pan.pengqi.xyz:300/#!/downloading', 'AriaNg'],
-        ['https://photo.pengqi.xyz:300', 'Photoprism']
+        ["https://cloud.pengqi.xyz:300", "cloud"]
     ]
 
     let total_ls = [ls1, ls2]
